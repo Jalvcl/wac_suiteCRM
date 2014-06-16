@@ -50,15 +50,15 @@ Directories:
     |
     |  
     -----include-----/*_forms.php (forms that control the process)
-    |             |
-    |             |--/modalpopups.php (modal container)
+    |               |
+    |               |--/modalpopups.php (modal container)
     |
     |
     -----core/----actions/-----crmConnectionSoap.php (processes that control the connection to suitecrm)
-                           |
-                           |--crmConnectionRest.php (not in use. Deprecated in this version due to undesired functioning.. get_entry_list 
-                           |                       method was delivering the whole object instead of just selected records)
-                           |--parameters.sample.php (rename this to parameters.php and put your access (url, username and password) data to 
-                           |                       your  crm)
+                            |
+                            |--crmConnectionRest.php (not in use. Deprecated in this version due to undesired functioning.. get_entry_list 
+                            |                       method was delivering the whole object instead of just selected records)
+                            |--parameters.sample.php (rename this to parameters.php and put your access (url, username and password) data to 
+                            |                       your  crm)
                         
     
