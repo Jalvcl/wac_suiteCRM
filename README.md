@@ -69,19 +69,19 @@ WIKI
 ======================
 
 Include this in the very beginning of your index.php:
-<?php include('include/location/headlocation.php'); ?>
+"<?php include('include/location/headlocation.php'); ?>"
 
 Include this style to hide alerts by default:
-<link href="/css/crmsyncme.css" rel="stylesheet">
+"<link href="/css/crmsyncme.css" rel="stylesheet">"
 
 
 Include the following before </body> in your index.php for example:
 
 This is the wrapper of popups to login/logout...
-<?php include('include/modalwrapper/modalpopups.php'); ?>
+"<?php include('include/modalwrapper/modalpopups.php'); ?>"
 
 The following shows or hide alerts depending of status of variables:
-<?php include('include/js/jquerypopups.php'); ?>
+"<?php include('include/js/jquerypopups.php'); ?>"
 
 
 SuiteCRM Installable Module
